@@ -9,7 +9,7 @@
 title: Leading Change Institute
 email: your-email@domain.com
 description: > # LCI engages leaders who seek to further develop their skills for the benefit of higher education.
-baseurl: "leadingchangeinstitute.org" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://leadingchangeinstitute.org" # the base hostname & protocol for your site
 twitter_username: clirnews
 github_username:  waynegraham
