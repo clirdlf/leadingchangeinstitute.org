@@ -1,0 +1,66 @@
+// Home Slider
+#slider{
+  float: left;
+  display: inline;
+  width: 100%;
+}
+.slider_area {
+  background-color: #ccc;
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+.slider_caption {
+  left: 5%;
+  position: absolute;
+  top: 25%;
+  width: 50%;
+}
+.slider_right_caption{
+  left: 38%;
+}
+.slider_caption h2 {
+  color: #fff;
+  font-size: 33px;
+  background-color: rgba(49, 59, 61, 0.6);
+  padding: 8px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.slider_caption p {
+  background-color: rgba(49, 59, 61, 0.6);
+  color: #fff;
+  font-family: "Varela",sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+.slider_btn {
+  background: rgba(49, 59, 61, 0.6);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Varela", sans-serif;
+  margin-top: 10px;
+  padding: 9px 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.slider_btn:hover,.slider_btn:focus{
+  text-decoration: none;
+  outline: none;
+}
+.next,.prev{
+  display: none !important;
+}
+.slider_area:hover .next{
+  display: block !important;
+}
+.slider_area:hover .prev{
+  display: block !important;
+}
