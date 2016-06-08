@@ -199,6 +199,12 @@ $red: #ff2851;
 
 .footer_widget_nav li a {
     color: $red;
+
+    // &:hover {
+    //     -webkit-transition: all 0.5s;
+    //     transition: all 0.5s;
+    //     text-decoration: underline;
+    // }
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
@@ -229,7 +235,7 @@ $red: #ff2851;
 .soc_tooltip:hover {
     color: $red;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;  
+    transition: all 0.5s;
 }
 
 /*Header nav color*/
