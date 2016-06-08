@@ -2,6 +2,30 @@
 @import 'slider';
 @import 'testimonials';
 
+.main-content {
+  margin-top: 30px;
+}
+
+#imgBanner {
+  background-image: url("https://unsplash.it/1250/300");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 20px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+#imgBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #about {
   display: inline;
   float: left;

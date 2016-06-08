@@ -3,10 +3,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <!-- vendor files -->
-<script src="js/vendor/jquery.superslides.min.js"></script>
-<!-- custom -->
-<script src="js/main.js"></script>
+<script src="{{ '/js/vendor/jquery.superslides.min.js' | prepend: site.baseurl }}"></script>
 
-<!-- Google map -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script src="js/map.js"></script>
+<!-- custom -->
+<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
