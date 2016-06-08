@@ -1,0 +1,242 @@
+$color: #78ADC9;
+$red: #ff2851;
+
+.navbar-default .navbar-brand span {
+    color: $color;
+}
+.navbar-default .navbar-brand span {
+    color: $color;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: $color;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: $color;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: $color !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $color;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: transparent;
+    color: $color;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $color;
+}
+.slides-pagination a.current {
+    background-color: $color;
+}
+.slider_btn:focus,
+.slider_btn:hover {
+    color: $color;
+    border-color: $color;
+}
+.titile:after {
+    background-color: $color;
+}
+.feed_tabs {
+    border-bottom: 2px solid $color;
+}
+.feed_tabs li.active a,
+.feed_tabs li.active a:focus,
+.feed_tabs li.active a:hover {
+    border: 2px solid;
+    color: $color !important;
+    border-color: $color $color transparent;
+}
+.feed_tabs li a:hover {
+    background-color: $color;
+}
+.news_tab .media-body > a:hover {
+    color: $color;
+}
+.see_all:focus,
+.see_all:hover {
+    border-color: $color;
+    color: $color;
+}
+.single_notice_pane .slick-prev {
+    background-color: $color;
+}
+.single_notice_pane .slick-next {
+    background-color: $color;
+}
+.title_area span {
+    background: none repeat scroll 0 0 $color;
+}
+.whyus_icon {
+    background: none repeat scroll 0 0 $color;
+}
+.course_more:focus,
+.course_more:hover {
+    color: $color;
+}
+.singCourse_title a:hover {
+    color: $color;
+}
+.singCourse_price {
+    color: $color;
+}
+.tutors_thumb {
+    background: none repeat scroll 0 0 $color;
+}
+.singTutors_content > span {
+    background-color: $color;
+}
+.tutors_socnav li a:focus,
+.tutors_socnav li a:hover {
+    color: $color;
+    border-color: $color;
+}
+.tutors_nav .slick-dots li.slick-active {
+    border-color: $color;
+}
+.stsTestimonial_content > p {
+    color: $color;
+}
+.scrollToTop:hover {
+    background-color: $color;
+}
+.footer_bootomLeft a {
+    color: $color;
+}
+.pagination li a {
+    color: $color;
+}
+.pagination li a:focus,
+.pagination li a:hover {
+    background-color: $color;
+}
+.single_blog_archive {
+    border-bottom: 3px solid $color;
+}
+.blog_title a:hover {
+    color: $color;
+}
+.blog_commentbox > p:hover {
+    color: $color;
+}
+.blog_commentbox > a:hover {
+    color: $color;
+}
+.blog_readmore:focus,
+.blog_readmore:hover {
+    color: $color;
+}
+.blog_readmore:focus::after,
+.blog_readmore:focus::before,
+.blog_readmore:hover::after,
+.blog_readmore:hover::before {
+    color: $color;
+}
+.tags_nav li a:focus,
+.tags_nav li a:hover {
+    background-color: $color;
+}
+.single_blog blockquote > span {
+    color: $color;
+}
+.single_blog ul li > span {
+    color: $color;
+}
+.prev_post:hover {
+    color: $color;
+    border-color: $color;
+}
+.next_post:hover {
+    color: $color;
+    border-color: $color;
+}
+.related_post > h2 {
+    color: $color;
+}
+.events_slider .slick-next,
+.events_slider .slick-prev {
+    background-color: $color;
+}
+.error_page_content h1:after,
+.error_page_content h1:before {
+    border: 2px solid $color;
+}
+.error_page_content p > a:hover {
+    color: $color;
+}
+.error_page_content p:before {
+    border-top: 1px solid $color;
+}
+.error_page_content p:after {
+    border-top: 1px solid $color;
+}
+.error_page_content p {
+    border-bottom: 2px solid $color;
+    border-top: 2px solid $color;
+}
+.error_page_content h1 {
+    color: $color;
+}
+.wp-form-control:focus {
+    border: 1px solid $color;
+}
+.wpcf7-submit {
+    border: 1px solid $color;
+    color: $color;
+}
+.wpcf7-submit:focus,
+.wpcf7-submit:hover {
+    background-color: $color;
+    color: #ffffff;
+}
+
+
+.footer_widget_nav li a {
+    color: $red;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    color: $color !important;
+}
+.single_sidebar > h2 {
+    background-color: $color;
+}
+.singlecourse_price {
+    color: $color;
+}
+.course_table thead {
+    background-color: $color;
+}
+.related_course > h2 {
+    color: $color;
+}
+.single_sidebar > ul > li > a:focus,
+.single_sidebar > ul > li > a:hover {
+    color: $color;
+}
+.news_tab .media-body > a:hover {
+    color: $color;
+}
+
+
+.soc_tooltip:hover {
+    color: $red;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;  
+}
+
+/*Header nav color*/
+/*.navbar-default {
+  background-color: #313b3d;
+}*/
+/*Footer top color*/
+/*.footer_top {
+  background-color: #1e2223;
+}*/

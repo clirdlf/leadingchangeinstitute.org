@@ -1,146 +1,55 @@
-$bg-color: #78ADC9;
-#ourTestimonials {
-    background-color: #ffffff;
-    display: inline;
-    float: left;
-    padding: 60px 0;
-    width: 100%;
+#studentsTestimonial{
+  background-color: #f6f6f6;
+  float: left;
+  display: inline;
+  width: 100%;
+  padding: 60px 0px;
 }
-.ourTestimonials_content {
-    float: left;
-    display: inline;
-    width: 100%;
+.studentsTestimonial_content{
+  float: left;
+  display: inline;
+  width: 100%;
 }
-.tutors_nav {}
-.tutors_nav > li {
-    display: block;
-    float: left;
-    margin-right: 30px;
-    width: 31%;
+.single_stsTestimonial{
+  float: left;
+  display: inline;
+  width: 100%;
+  text-align: center;
 }
-.tutors_nav > li:last-child {
-    margin-right: 0;
+.stsTestimonial_msgbox {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: inline;
+  float: left;
+  margin-bottom: 25px;
+  padding: 13px;
+  width: 100%;
+  position: relative;
 }
-.single_tutors {
-    display: inline;
-    float: left;
-    min-height: 150px;
-    width: 100%;
-    padding-bottom: 15px;
+.stsTestimonial_msgbox:after {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #fff;
+  bottom: -15px;
+  content: "";
+  height: 0;
+  left: 46%;
+  position: absolute;
+  width: 0;
 }
-.tutors_thumb {
-    border-radius: 50%;
-    display: block;
-    font-size: 15px;
-    height: 165px;
-    line-height: 165px;
-    margin: 0 auto;
-    padding: 15px 0 0 18px;
-    text-align: center;
-    width: 75%;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+.stsTesti_img {
+  border: 5px solid #dbe2e9;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
-.single_tutors:hover .tutors_thumb {
-    padding: 0;
+.stsTestimonial_content{
+  float: left;
+  display: inline;
+  width: 100%;
 }
-.tutors_thumb > img {
-    border-radius: 50%;
-    height: 150px;
-    width: 95%;
-}
-.singTestimonials_content {
-    float: left;
-    display: inline;
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-}
-.tutors_name {
-    font-size: 18px;
-    margin-bottom: 3px;
-    text-transform: uppercase;
-}
-.singTestimonials_content > span {
-    font-size: 13px;
-    color: #fff;
-    display: inline-block;
-    padding: 0 10px;
-    margin-bottom: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: capitalize;
-}
-.singTestimonials_content > p {
-    font-size: 13px;
-}
-.singTestimonials_social {
-    float: left;
-    display: inline;
-    width: 100%;
-    padding-top: 10px;
-}
-.tutors_socnav {
-    text-align: center;
-}
-.tutors_socnav li {
-    display: inline-block;
-}
-.tutors_socnav li a {
-    background-color: #fff;
-    border: 1px solid #a8a8a8;
-    color: #a8a8a8;
-    display: inline-block;
-    font-size: 14px;
-    height: 26px;
-    line-height: 24px;
-    margin: 0 auto;
-    text-align: center;
-    width: 26px;
-    text-decoration: none;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.tutors_socnav li a:focus,
-.tutors_socnav li a:hover {
-    text-decoration: none;
-    outline: none;
-}
-.tutors_nav .slick-dots li {
-    border: 2px solid #a8a8a8;
-    width: 15px;
-    height: 15px;
-}
-.tutors_nav .slick-dots li button:before,
-.tutors_nav .slick-dots li.slick-active button:before {
-    color: #fff;
-}
-.tutors_socnav li a:focus,
-.tutors_socnav li a:hover {
-    color: $bg-color;
-    border-color: $bg-color;
-}
-.tutors_nav .slick-dots li.slick-active {
-    border-color: $bg-color;
-}
-// Theme
-.tutors_thumb {
-    background: none repeat scroll 0 0 $bg-color;
-}
-.singTutors_content > span {
-    background-color: #78adc9;
-}
-.tutors_socnav li a:focus,
-.tutors_socnav li a:hover {
-    color: $bg-color;
-    border-color: $bg-color;
-}
-.tutors_nav .slick-dots li.slick-active {
-    border-color: $bg-color;
-}
+
 .stsTestimonial_content > p {
-    color: $bg-color;
+  color: #78adc9;
 }
