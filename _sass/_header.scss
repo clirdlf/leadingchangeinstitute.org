@@ -2,8 +2,19 @@ $red: #ff2851;
 
 .red { color: $red; }
 
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-brand { font-size: 22px; }
+}
+
+@media(min-width: 992px) {
+  .navbar-brand { font-size: 35px; }
+}
+
 header {
     font-family: 'Varela', sans-serif;
+
     .navbar-inverse {
         background-color: transparent;
         border-color: transparent;
@@ -11,7 +22,7 @@ header {
     }
     .navbar-brand {
         color: #fff !important;
-        font-size: 35px;
+
         font-weight: bolder;
     }
     .navbar-inverse .navbar-nav > .active > a,
