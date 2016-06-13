@@ -7,9 +7,10 @@ permalink: /alumni/
 
 ## Leading Change Institute
 
-* [2015](http://www.clir.org/pubs/issues/issues103/issues103#LCI)
-* [2014](http://www.clir.org/pubs/issues/issues97/issues97/#LCI)
-* [2013](http://www.clir.org/pubs/issues/issues91/#LCI)
+* [2016](/alumni/2016/)
+* [2015](/alumni/2015/)
+* [2014](/alumni/2014/)
+* [2013](/alumni/2013/)
 
 ## Frye Leadership Institute
 
