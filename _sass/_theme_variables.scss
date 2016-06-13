@@ -104,7 +104,8 @@ $red: #ff2851;
     color: $color;
 }
 .scrollToTop:hover {
-    background-color: $color;
+    /*background-color: $color;*/
+  background-color: $red;
 }
 .footer_bootomLeft a {
     color: $color;

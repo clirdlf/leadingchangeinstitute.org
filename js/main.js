@@ -19,7 +19,8 @@
 
         // Scroll Up
         $(window).scroll(function() {
-            if ($(this).scrollTop() > 300) {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').css('opacity', 1); // temp hack to override opacity
                 $('.scrollToTop').fadeIn();
             } else {
                 $('.scrollToTop').fadeOut();

@@ -1,5 +1,5 @@
 ---
-title: Leading Change Institute Alumni
+title: Institute Alumni
 layout: page
 slug: alumni
 permalink: /alumni/
@@ -13,15 +13,15 @@ permalink: /alumni/
 
 ## Frye Leadership Institute
 
-* [2012](http://www.clir.org/pubs/issues/issues85.html#frye)
-* [2011](http://www.clir.org/pubs/issues/issues79.html#frye)
-* [2009](http://www.clir.org/pubs/issues/issues61.html#frye)
-* [2008](http://www.clir.org/pubs/issues/issues56.html#frye)
-* [2007](http://www.clir.org/pubs/issues/issues56.html#frye)
-* [2006](http://www.clir.org/pubs/issues/issues50.html#frye)
-* [2005](http://www.clir.org/pubs/issues/issues44.html#frye)
-* [2004](http://www.clir.org/pubs/issues/issues38.html#frye)
-* [2003](http://www.clir.org/pubs/issues/issues32.html#frye)
-* [2002](http://www.clir.org/pubs/issues/issues26.html#frye)
-* [2001](http://www.clir.org/pubs/issues/issues20.html#frye)
-* [2000](http://www.clir.org/pubs/issues/issues14.html#frye)
+* [2012](/alumni/2012/)
+* [2011](/alumni/2011/)
+* [2009](/alumni/2009/)
+* [2008](/alumni/2008/)
+* [2007](/alumni/2007/)
+* [2006](/alumni/2006/)
+* [2005](/alumni/2005/)
+* [2004](/alumni/2004/)
+* [2003](/alumni/2003/)
+* [2002](/alumni/2002/)
+* [2001](/alumni/2001/)
+* [2000](/alumni/2000/)
