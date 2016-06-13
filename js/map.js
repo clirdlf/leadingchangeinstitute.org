@@ -1,11 +1,11 @@
 (function() {
   "use strict";
 
-  google.maps.event.addDomListener(window, 'load', init);
+  google.maps.event.addDomListener(window, 'load', mapInit);
 
   var location = new google.maps.LatLng(38.903027, -77.02438);
 
-  function init() {
+  function mapInit() {
     var mapOptions = {
       zoom: 15,
       center: location,
