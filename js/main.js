@@ -8,7 +8,7 @@
             animation: 'fade',
             animation_easing: 'linear',
             pagination: true,
-            play: 5000,
+            play: 7000,
             hashchange: true,
         });
 
