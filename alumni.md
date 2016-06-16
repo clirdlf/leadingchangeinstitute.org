@@ -5,6 +5,8 @@ slug: alumni
 permalink: /alumni/
 ---
 
+having fun
+
 ## Leading Change Institute
 
 * [2016](/alumni/2016/)
