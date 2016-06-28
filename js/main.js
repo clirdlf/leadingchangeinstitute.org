@@ -17,6 +17,8 @@
             console.log('loaded');
         });
 
+        $('a').smoothScroll({offset: -75});
+
         // Scroll Up
         $(window).scroll(function() {
             if ($(this).scrollTop() > 100) {

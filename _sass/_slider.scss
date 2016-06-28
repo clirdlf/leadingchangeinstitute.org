@@ -1,9 +1,27 @@
+@import "palette";
+
+$dark-purple: #443558; //rgba(119,84,167,100)
+$purple-accent: #7754a7; //rgba(119,84,167,100)
+$purple: #6f509c; //rgba(111,80,156,100)
+$light-purple: #a29bcb;
+$offwhite: #feffff; //rgba(254,255,255,1.0)
+$dark-green: #6baa97; //rgba(107,170,151,100)
+$light-green: #7cc0ac; //rgba(124,192,172,100)
+$gray: #f4f5f7;
+
 // Home Slider
 #slider{
   float: left;
   display: inline;
   width: 100%;
 }
+
+.slides-pagination {
+  a.current {
+    background-color: $light-purple;
+  }
+}
+
 .slider_area {
   background-color: #ccc;
   display: inline;
