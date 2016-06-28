@@ -1,43 +1,71 @@
-$red: #ff2851;
-
-.red { color: $red; }
-
+@import "palette";
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .navbar-brand { font-size: 22px; }
+	.navbar-brand {
+		font-size: 22px;
+	}
 }
-
 @media(min-width: 992px) {
-  .navbar-brand { font-size: 35px; }
+	.navbar-brand {
+		font-size: 35px;
+	}
 }
 
-header {
-    font-family: 'Varela', sans-serif;
+.navbar-custom {
+	font-family: 'Open Sans Pro', sans-serif;
+	border: 0;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: $dark-purple;
+	transition: all 0.2s linear 0s;
+	.navbar-brand {
+		color: $offwhite;
+		&:focus,
+		&:hover {
+			color: $offwhite;
+		}
 
-    .navbar-inverse {
-        background-color: transparent;
-        border-color: transparent;
-        padding: 12px 0;
-    }
-    .navbar-brand {
-        color: #fff !important;
-
-        font-weight: bolder;
-    }
-    .navbar-inverse .navbar-nav > .active > a,
-    .navbar-inverse .navbar-nav > .active > a:focus,
-    .navbar-inverse .navbar-nav > .active > a:hover {
-        background-color: transparent;
-    }
-    .navbar-inverse .navbar-nav > li > a {
-        // color: #fff;
-        font-size: 15px;
-        font-weight: 600;
-
-        &:hover {
-            color: $red;
-            transition: all 0.5s ease;
-        }
-    }
-
+		.highlight {
+			// color: $light-purple; //TODO find accent
+			//color: #C0D6C1; //TODO find accent
+      //color: #8c8f94;
+      //color: darken($gray, 25%);
+      //color: #FFB546;
+      color: #50C5B7;
+		}
+	}
+	.navbar-nav {
+		li {
+			margin: 0;
+		}
+		> li > a {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 400;
+			border-bottom: 1px solid transparent;
+			&:focus,
+			&:hover {
+				background-color: transparent;
+				border-color: rgba(107,170,151,0.5);
+			}
+		}
+		> .active > a {
+			border-color: rgba(124,192,172,.5);
+		}
+	}
+}
+.navbar-toggle {
+	border: 0;
+	border-radius: 0;
+	margin-top: 2px;
+	.icon-bar {
+		background-color: #fff;
+	}
+}
+.navbar-solid {
+	background-color: rgba(0,0,0,0.8) !important;
+	padding: 0 !important;
+	transition: all 0.2s linear 0s;
 }

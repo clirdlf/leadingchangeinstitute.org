@@ -16,3 +16,11 @@ github_username:  waynegraham
 
 # Build settings
 markdown: kramdown
+exclude:
+  - gulpfile.js
+  - node_modules
+  - package.json
+collections:
+  institutes:
+    output: true
+    title: institutes

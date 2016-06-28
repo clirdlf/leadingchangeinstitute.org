@@ -1,9 +1,21 @@
+@import 'palette';
+
 #studentsTestimonial {
-  background-color: #f6f6f6;
+  //background-color: #f6f6f6;
   float: left;
   display: inline;
   width: 100%;
   padding: 60px 0px;
+
+
+  h2 {
+    font-size: 52px;
+    line-height: 52px;
+    margin-bottom: 64px;
+    font-weight: 400;
+    color: #8c8f94;
+  }
+
 }
 .studentsTestimonial_content {
   float: left;
@@ -16,9 +28,15 @@
   width: 100%;
   text-align: center;
 }
+
+.stsTestimonial_msgbox:before {
+
+}
 .stsTestimonial_msgbox {
-  background-color: #fff;
-  border: 1px solid #fff;
+  // background-color: #fff;
+  background-color: $light-purple;
+  color: #fff;
+  // border: 1px solid #fff;
   border-radius: 8px;
   display: inline;
   float: left;
@@ -26,11 +44,16 @@
   padding: 13px;
   width: 100%;
   position: relative;
+
+  p {
+    font-size: 18px;
+  }
 }
 .stsTestimonial_msgbox:after {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #fff;
+  // border-top: 15px solid #fff;
+  border-top: 15px solid $light-purple;
   bottom: -15px;
   content: "";
   height: 0;

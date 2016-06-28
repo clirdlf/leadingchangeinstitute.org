@@ -1,46 +1,14 @@
-$color: #78ADC9;
-$red: #ff2851;
+$color: $color5;
+$red: $color2;
+// $color: #78ADC9;
+// $red: #ff2851;
 
-.navbar-default .navbar-brand span {
-    color: $color;
-}
-.navbar-default .navbar-brand span {
-    color: $color;
-}
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-    color: $color;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-    color: $color;
-}
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover {
-    color: $color !important;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: $color;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover {
-    background-color: transparent;
-    color: $color;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: $color;
-}
-.slides-pagination a.current {
-    background-color: $color;
-}
 .slider_btn:focus,
 .slider_btn:hover {
     color: $color;
     border-color: $color;
 }
-.titile:after {
+.title:after {
     background-color: $color;
 }
 .feed_tabs {
@@ -105,7 +73,8 @@ $red: #ff2851;
 }
 .scrollToTop:hover {
     /*background-color: $color;*/
-  background-color: $red;
+  // background-color: $red;
+  background-color: $color1;
 }
 .footer_bootomLeft a {
     color: $color;
@@ -199,7 +168,8 @@ $red: #ff2851;
 
 
 .footer_widget_nav li a {
-    color: $red;
+    // color: $red;
+    color: $color4;
 
     // &:hover {
     //     -webkit-transition: all 0.5s;
@@ -212,8 +182,16 @@ $red: #ff2851;
 .dropdown-menu > .active > a:hover {
     color: $color !important;
 }
+
 .single_sidebar > h2 {
-    background-color: $color;
+    //background-color: $color;
+    background-color: $dark-purple;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: $gray;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 .singlecourse_price {
     color: $color;
@@ -232,12 +210,12 @@ $red: #ff2851;
     color: $color;
 }
 
-
 .soc_tooltip:hover {
     color: $red;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
+
 
 /*Header nav color*/
 /*.navbar-default {
