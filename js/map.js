@@ -156,14 +156,26 @@
     var mapElement = document.getElementById('map');
 
     var map = new google.maps.Map(mapElement, mapOptions);
-    var image = '/img/marker.png';
-    var marker = new google.maps.Marker({
-        position: location,
-        animation: google.maps.Animation.DROP,
-        map: map,
-        title: "Marriott Marquis Washington, DC",
-        icon: image
+    var marker = new Marker({
+	     map: map,
+      position: location,
+    	icon: {
+    		path: MAP_PIN,
+    		fillColor: '#a29bcb',
+    		fillOpacity: 1,
+    		strokeColor: '',
+    		strokeWeight: 0
+    	},
+    	map_icon_label: '<span class="fa fa-circle dark-purple"></span>'
     });
+    // var image = '/img/marker.png';
+    // var marker = new google.maps.Marker({
+    //     position: location,
+    //     animation: google.maps.Animation.DROP,
+    //     map: map,
+    //     title: "Marriott Marquis Washington, DC",
+    //     icon: image
+    // });
 
     marker.addListener('click', function() {
       infowindow.open(map, marker);
