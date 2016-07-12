@@ -153,6 +153,9 @@
   color: #222222; }
 
 /* Coolors Exported Palette - coolors.co/39217c-f03a47-af5b5b-f6f6f6-276fbf */
+.dark-purple {
+  color: #443558; }
+
 .slider_btn:focus,
 .slider_btn:hover {
   color: #276fbf;
@@ -361,6 +364,9 @@
   background-color: #1e2223;
 }*/
 /* Coolors Exported Palette - coolors.co/39217c-f03a47-af5b5b-f6f6f6-276fbf */
+.dark-purple {
+  color: #443558; }
+
 #slider {
   float: left;
   display: inline;
@@ -429,6 +435,9 @@
   display: block !important; }
 
 /* Coolors Exported Palette - coolors.co/39217c-f03a47-af5b5b-f6f6f6-276fbf */
+.dark-purple {
+  color: #443558; }
+
 #studentsTestimonial {
   float: left;
   display: inline;
@@ -491,6 +500,9 @@
   color: #78adc9; }
 
 /* Coolors Exported Palette - coolors.co/39217c-f03a47-af5b5b-f6f6f6-276fbf */
+.dark-purple {
+  color: #443558; }
+
 @media (min-width: 768px) and (max-width: 992px) {
   .navbar-brand {
     font-size: 22px; } }
@@ -513,7 +525,7 @@
     .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
       color: #feffff; }
     .navbar-custom .navbar-brand .highlight {
-      color: #50C5B7; }
+      color: #E84855; }
   .navbar-custom .navbar-nav li {
     margin: 0; }
   .navbar-custom .navbar-nav > li > a {
@@ -622,6 +634,9 @@ blockquote {
   color: #9ba4b7; }
 
 /* Coolors Exported Palette - coolors.co/39217c-f03a47-af5b5b-f6f6f6-276fbf */
+.dark-purple {
+  color: #443558; }
+
 body,
 html {
   overflow-x: hidden; }
